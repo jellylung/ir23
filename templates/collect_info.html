@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>您的信息</title>
+    <style>
+        body {
+            background-color: #f0f0f0; /* 设置整个页面的背景颜色 */
+            font-family: Arial, sans-serif; /* 设置全局字体 */
+        }
+        .box {
+            position: relative;
+            margin: 100px auto;
+            width: 200px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+    <form method="post">
+        <!-- 用户年龄输入框 -->
+        <input class="ipt" type="number" name="age" placeholder="年龄">
+        <br>
+        <!-- 用户性别选择 -->
+        <select class="ipt" name="gender">
+            <option value="male">男</option>
+            <option value="female">女</option>
+        </select>
+    
+        <input class="btn" id="user-btn" type="submit" value="提交">
+    </form>
+    
+</div>
+</body>
+</html>

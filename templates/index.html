@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>依度搜索</title>
+    <style>
+        body {
+            background-color: #f0f0f0; /* 设置整个页面的背景颜色 */
+            font-family: Arial, sans-serif; /* 设置全局字体 */
+        }
+        h1 {
+            text-align: center;
+            margin-top: 0; /* 去除标题的默认上外边距 */
+            color: #333; /* 设置标题颜色 */
+        }
+        .box {
+            position: relative;
+            margin: 100px auto;
+            width: 400px;
+            padding: 20px;
+        }
+
+        .box form {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .ipt {
+            padding: 10px;
+            margin-bottom: 10px;
+            width: 100%;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            outline: none;
+        }
+        
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>依度搜索</h1> 
+        <form method="post">
+            <input class="ipt" id="user-input" type="text" name="query" placeholder="短语查询：请输入内容">
+            <input class="btn" id="user-btn" type="submit" value="搜索">
+            <br>
+        
+        <div class="searchbox">
+            高级搜索：<br>
+                <input class="ipt" id="user-input" type="text" name="webdns" placeholder="站内搜索：输入你想找的指定网站"  >
+        
+    
+        <form method="post"> 
+            <br>
+            <input class="ipt" id="user-input" type="text" name="wildcard" placeholder="通配查询：在这里输入通配符">
+            <input class="btn" id="user-btn" type="submit" value="搜索">   
+        </div>
+        <a href="{{ url_for('collect_info') }}">提交您的信息以优化查询</a>
+
+</div>
+  
+</body>
+</html>

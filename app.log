@@ -1,0 +1,89 @@
+2024-01-04 16:26:03,451 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-01-04 16:26:03,451 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-01-04 16:26:03,452 - werkzeug - INFO -  * Restarting with stat
+2024-01-04 16:26:04,014 - werkzeug - WARNING -  * Debugger is active!
+2024-01-04 16:26:04,023 - werkzeug - INFO -  * Debugger PIN: 282-067-616
+2024-01-04 16:30:43,468 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-01-04 16:30:43,468 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-01-04 16:30:43,470 - werkzeug - INFO -  * Restarting with stat
+2024-01-04 16:30:44,031 - werkzeug - WARNING -  * Debugger is active!
+2024-01-04 16:30:44,037 - werkzeug - INFO -  * Debugger PIN: 282-067-616
+2024-01-04 16:32:33,625 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-01-04 16:32:33,625 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-01-04 16:32:33,627 - werkzeug - INFO -  * Restarting with stat
+2024-01-04 16:32:34,243 - werkzeug - WARNING -  * Debugger is active!
+2024-01-04 16:32:34,251 - werkzeug - INFO -  * Debugger PIN: 282-067-616
+2024-01-04 16:32:40,100 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2024 16:32:40] "GET / HTTP/1.1" 200 -
+2024-01-04 16:32:40,231 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2024 16:32:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-01-04 16:32:49,146 - root - INFO - User searched for: Ã÷ÈÕ Mode: Phrase Query
+2024-01-04 16:32:49,146 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2024 16:32:49] "[32mPOST / HTTP/1.1[0m" 302 -
+2024-01-04 16:32:49,174 - elasticsearch - INFO - GET http://localhost:9200/ [status:200 request:0.022s]
+2024-01-04 16:32:49,212 - elasticsearch - INFO - POST http://localhost:9200/music/_search [status:200 request:0.037s]
+2024-01-04 16:32:49,217 - elasticsearch - INFO - POST http://localhost:9200/music/_count [status:200 request:0.005s]
+2024-01-04 16:32:49,223 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2024 16:32:49] "GET /search1?query=Ã÷ÈÕ HTTP/1.1" 200 -
+2024-01-04 16:33:07,757 - root - INFO - User searched for: Ã÷ÈÕ limit in:so.gushiwen.cn Mode: In Station Query
+2024-01-04 16:33:07,757 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2024 16:33:07] "[32mPOST / HTTP/1.1[0m" 302 -
+2024-01-04 16:33:07,771 - elasticsearch - INFO - POST http://localhost:9200/music/_search [status:200 request:0.008s]
+2024-01-04 16:33:07,774 - elasticsearch - INFO - POST http://localhost:9200/music/_count [status:200 request:0.003s]
+2024-01-04 16:33:07,775 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2024 16:33:07] "GET /search?query=Ã÷ÈÕ&limit=so.gushiwen.cn HTTP/1.1" 200 -
+2024-01-04 16:35:33,055 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-01-04 16:35:33,055 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-01-04 16:35:33,057 - werkzeug - INFO -  * Restarting with stat
+2024-01-04 16:35:33,649 - werkzeug - WARNING -  * Debugger is active!
+2024-01-04 16:35:33,657 - werkzeug - INFO -  * Debugger PIN: 282-067-616
+2024-01-04 16:35:39,915 - root - INFO - User searched for: ja* Mode: wildcard Query
+2024-01-04 16:35:39,916 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2024 16:35:39] "[32mPOST / HTTP/1.1[0m" 302 -
+2024-01-04 16:35:39,926 - elasticsearch - INFO - GET http://localhost:9200/ [status:200 request:0.006s]
+2024-01-04 16:35:39,936 - elasticsearch - INFO - POST http://localhost:9200/music/_search [status:200 request:0.008s]
+2024-01-04 16:35:39,938 - elasticsearch - INFO - POST http://localhost:9200/music/_count [status:200 request:0.002s]
+2024-01-04 16:35:39,944 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2024 16:35:39] "GET /search_wild?wildcard=ja* HTTP/1.1" 200 -
+2024-01-04 16:35:53,397 - root - INFO - User searched for: *on Mode: wildcard Query
+2024-01-04 16:35:53,398 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2024 16:35:53] "[32mPOST / HTTP/1.1[0m" 302 -
+2024-01-04 16:35:53,416 - elasticsearch - INFO - POST http://localhost:9200/music/_search [status:200 request:0.013s]
+2024-01-04 16:35:53,423 - elasticsearch - INFO - POST http://localhost:9200/music/_count [status:200 request:0.007s]
+2024-01-04 16:35:53,424 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2024 16:35:53] "GET /search_wild?wildcard=*on HTTP/1.1" 200 -
+2024-01-04 16:36:05,539 - root - INFO - User searched for: ki* Mode: wildcard Query
+2024-01-04 16:36:05,539 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2024 16:36:05] "[32mPOST / HTTP/1.1[0m" 302 -
+2024-01-04 16:36:05,549 - elasticsearch - INFO - POST http://localhost:9200/music/_search [status:200 request:0.004s]
+2024-01-04 16:36:05,551 - elasticsearch - INFO - POST http://localhost:9200/music/_count [status:200 request:0.002s]
+2024-01-04 16:36:05,552 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2024 16:36:05] "GET /search_wild?wildcard=ki* HTTP/1.1" 200 -
+2024-01-04 16:36:43,403 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2024 16:36:43] "GET /collect-info HTTP/1.1" 200 -
+2024-01-04 16:36:50,875 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2024 16:36:50] "[32mPOST /collect-info HTTP/1.1[0m" 302 -
+2024-01-04 16:36:50,882 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2024 16:36:50] "GET / HTTP/1.1" 200 -
+2024-01-04 16:39:58,311 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-01-04 16:39:58,311 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-01-04 16:39:58,313 - werkzeug - INFO -  * Restarting with stat
+2024-01-04 16:39:58,911 - werkzeug - WARNING -  * Debugger is active!
+2024-01-04 16:39:58,919 - werkzeug - INFO -  * Debugger PIN: 282-067-616
+2024-01-04 16:40:01,340 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2024 16:40:01] "GET / HTTP/1.1" 200 -
+2024-01-04 16:40:08,616 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2024 16:40:08] "GET /collect-info HTTP/1.1" 200 -
+2024-01-04 16:40:13,626 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2024 16:40:13] "[32mPOST /collect-info HTTP/1.1[0m" 302 -
+2024-01-04 16:40:13,632 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2024 16:40:13] "GET / HTTP/1.1" 200 -
+2024-01-04 16:40:27,440 - root - INFO - User searched for: Ã÷ÈÕ Mode: Phrase Query
+2024-01-04 16:40:27,440 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2024 16:40:27] "[32mPOST / HTTP/1.1[0m" 302 -
+2024-01-04 16:40:27,452 - elasticsearch - INFO - GET http://localhost:9200/ [status:200 request:0.006s]
+2024-01-04 16:40:27,457 - elasticsearch - INFO - POST http://localhost:9200/music/_search [status:200 request:0.004s]
+2024-01-04 16:40:27,459 - elasticsearch - INFO - POST http://localhost:9200/music/_count [status:200 request:0.002s]
+2024-01-04 16:40:27,466 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2024 16:40:27] "GET /search1?query=Ã÷ÈÕ HTTP/1.1" 200 -
+2024-01-04 16:40:34,518 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2024 16:40:34] "[36mGET /snapshot/https://epaper.gmw.cn/gmrb/html/2009-10/30/nw.D110000gmrb_20091030_2-03.htm%3Fdiv%3D-1 HTTP/1.1[0m" 304 -
+2024-01-04 16:40:48,839 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2024 16:40:48] "[32mGET /snapshot/https://epaper.gmw.cn/gmrb/html/2024-01/02/nbs.D110000gmrb_02.htm HTTP/1.1[0m" 302 -
+2024-01-04 16:41:05,238 - root - INFO - User searched for: Ã÷ÈÕ limit in:so.gushiwen.cn Mode: In Station Query
+2024-01-04 16:41:05,239 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2024 16:41:05] "[32mPOST / HTTP/1.1[0m" 302 -
+2024-01-04 16:41:05,252 - elasticsearch - INFO - POST http://localhost:9200/music/_search [status:200 request:0.007s]
+2024-01-04 16:41:05,254 - elasticsearch - INFO - POST http://localhost:9200/music/_count [status:200 request:0.002s]
+2024-01-04 16:41:05,255 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2024 16:41:05] "GET /search?query=Ã÷ÈÕ&limit=so.gushiwen.cn HTTP/1.1" 200 -
+2024-01-04 16:41:22,228 - root - INFO - User searched for: ki* Mode: wildcard Query
+2024-01-04 16:41:22,228 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2024 16:41:22] "[32mPOST / HTTP/1.1[0m" 302 -
+2024-01-04 16:41:22,237 - elasticsearch - INFO - POST http://localhost:9200/music/_search [status:200 request:0.004s]
+2024-01-04 16:41:22,239 - elasticsearch - INFO - POST http://localhost:9200/music/_count [status:200 request:0.002s]
+2024-01-04 16:41:22,239 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2024 16:41:22] "GET /search_wild?wildcard=ki* HTTP/1.1" 200 -
+2024-01-04 16:41:39,086 - root - INFO - User searched for: ja?a Mode: wildcard Query
+2024-01-04 16:41:39,087 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2024 16:41:39] "[32mPOST / HTTP/1.1[0m" 302 -
+2024-01-04 16:41:39,096 - elasticsearch - INFO - POST http://localhost:9200/music/_search [status:200 request:0.003s]
+2024-01-04 16:41:39,098 - elasticsearch - INFO - POST http://localhost:9200/music/_count [status:200 request:0.002s]
+2024-01-04 16:41:39,099 - werkzeug - INFO - 127.0.0.1 - - [04/Jan/2024 16:41:39] "GET /search_wild?wildcard=ja%3Fa HTTP/1.1" 200 -

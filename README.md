@@ -1,2 +1,2 @@
 # ir23fall
-课程大作业，flask+es搜索引擎
+基于python,flask,elasticsearch的搜索引擎
